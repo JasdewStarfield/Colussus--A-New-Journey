@@ -1,24 +1,25 @@
-# Compiled class file
-*.class
-
-# Log file
+config/embeddium-options.json
+config/flywheel-client.toml
+/crash-reports
+hmclversion.cfg
+log4j2.xml
+/local
+/logs
+/natives-windows-x86_64
+/saves
+rhino.local.properties
+usercache.json
+usernamecache.json
+options.txt
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+Colussus Dev.jar
+Colussus Dev.json
+config/oculus.properties
+/fancymenu_data
+/modernfix
+/XaeroWaypoints
+/XaeroWaypoints_BACKUP032021
+/XaeroWorldMap
+/screenshots
+/resourcepacks
+patchouli_data.json
