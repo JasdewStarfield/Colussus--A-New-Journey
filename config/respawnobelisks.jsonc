@@ -72,7 +72,7 @@
     },
     "immortalityCurse": {
         // Whether the curse of immortality should be enabled or not.
-        "enableCurse": true,
+        "enableCurse": false,
         // Sound to play when respawning with the immortality curse.
         "curseSound": "minecraft:entity.elder_guardian.curse",
         /*
@@ -96,7 +96,7 @@
             "minecraft:ender_pearl": 10.0
         },
         // Whether dispensers can be used to charge obelisks.
-        "allowDispenserCharging": false,
+        "allowDispenserCharging": true,
         // Sound to play when charging an obelisk.
         "chargingSound": "minecraft:block.respawn_anchor.charge",
         // Sound to play when removing radiance from an obelisk or respawning at an obelisk.
@@ -116,7 +116,7 @@
     },
     "teleportation": {
         // Whether players can teleport to obelisks by binding a recovery compass to a lodestone under the obelisk.
-        "enableTeleportation": true,
+        "enableTeleportation": false,
         // A list of blocks that players can bind recovery compasses to.
         "allowedBindingBlocks": [
             "minecraft:lodestone"
@@ -159,7 +159,7 @@
     },
     "revival": {
         // Whether entity revival via respawn obelisk should be enabled.
-        "enableRevival": true,
+        "enableRevival": false,
         // Item used to revive an obelisk's saved entities.
         "revivalItem": "minecraft:totem_of_undying",
         // Max number of entities that can be revived at once.
@@ -205,7 +205,7 @@
         // The chance for wild obelisks to have a core. (in %)
         "wildCoreChance": 100.0,
         // The minimum amount of radiance a wild obelisk will spawn with. (inclusive)
-        "wildMinRadiance": 100,
+        "wildMinRadiance": 50,
         // The maximum amount of radiance a wild obelisk will spawn with. (exclusive)
         "wildMaxRadiance": 101,
         // The minimum amount of max radiance a wild obelisk will spawn with. (inclusive)
@@ -220,7 +220,7 @@
         "allowCursedItemKeeping": false,
         "enchantment": {
             // Whether the obeliskbound enchantment should be enabled.
-            "enableEnchantment": true,
+            "enableEnchantment": false,
             // Whether the obeliskbound enchantment should be treasure only. (Can't find in enchantment table)
             "treasureOnly": true,
             // Whether the obeliskbound enchantment can be found in villager trades.
